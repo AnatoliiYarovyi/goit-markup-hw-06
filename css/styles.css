@@ -706,6 +706,7 @@ button {
   justify-content: center;
 
   background: var(--white-color);
+  cursor: pointer;
 }
 .btn-close .icon {
   width: 18px;
@@ -754,6 +755,7 @@ button {
   border-radius: 4px;
 
   transition: border-color 250ms var(--timing-function);
+  cursor: pointer;
 }
 .form-input {
   margin-bottom: 10px;
@@ -790,6 +792,7 @@ button {
 
   font-size: 14px;
   color: var(--text-color);
+  cursor: pointer;
 }
 .checkbox {
   position: absolute;
@@ -836,4 +839,5 @@ button {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
