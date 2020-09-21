@@ -146,7 +146,7 @@ img {
   width: 10px;
 }
 
-/* main */ /* ---------------- Герой ------------- */
+/* ---------------- Герой ------------- */
 .hero {
   display: flex;
   flex-direction: column;
@@ -186,7 +186,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   min-width: 200px;
-  border: transparent;
+  border-color: transparent;
 
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -196,9 +196,10 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-/* main */ /* ---------- Преимущества ------------ */
+/* ---------- Преимущества ------------ */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -263,7 +264,7 @@ img {
   color: var(--text-color);
 }
 
-/* main */ /* -------------- Чем занимаемся -------------- */
+/* -------------- Чем занимаемся -------------- */
 .image-list {
   display: flex;
 }
