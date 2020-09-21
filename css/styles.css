@@ -608,15 +608,10 @@ button {
   transform: translateY(0);
 }
 .desc-overlay .excerpt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  overflow: auto;
 
   font-size: 18px;
   line-height: 1.56;
